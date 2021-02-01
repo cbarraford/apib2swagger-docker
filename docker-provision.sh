@@ -12,7 +12,7 @@ apt-get install -y --no-install-recommends $BUILD_PKGS
 
 
 # install apib2swagger
-npm install -g apib2swagger@0.6.1
+npm install -g apib2swagger@1.12.0
 
 # remove installation dependencies
 apt-get -y purge $BUILD_PKGS
